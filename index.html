@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <div class="logo">Portfolio</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skillset</a>
+    <a href="#experience">Practical Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero hidden">
+  <div class="hero-content">
+    <h1>Samruddhi<br>Gawade</h1>
+    <p>
+      Electronics Engineering Student<br>
+      Embedded Systems & Sensor Applications
+    </p>
+  </div>
+  <div class="arrow">↓</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about hidden">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate electronics engineering student with a strong interest in embedded systems and sensor-based technologies.
+  </p>
+  <p>
+    I enjoy building practical solutions that solve real-world problems, especially in areas like safety systems and automation.
+    I am continuously learning and improving my technical and interpersonal skills to become an efficient and innovative engineer.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills hidden">
+  <h2>Skillset</h2>
+
+  <div class="skills-grid">
+
+    <!-- Row 1 -->
+    <div class="card">
+      <h3>Embedded Systems & Arduino Development</h3>
+      <p>Designing and implementing sensor-based electronic systems</p>
+    </div>
+
+    <div class="card">
+      <h3>Sensor Integration & Circuit Design</h3>
+      <p>Working with different kind of sensors for real-world applications</p>
+    </div>
+
+    <div class="card">
+      <h3>Communication</h3>
+      <p>Effectively explaining technical concepts and collaborating in team environments</p>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="card">
+      <h3>Teamwork</h3>
+      <p>Contributing to group projects with coordinated planning and execution</p>
+    </div>
+
+    <div class="card">
+      <h3>Adaptability</h3>
+      <p>Quickly learning and applying new tools and technologies</p>
+    </div>
+
+    <div class="card">
+      <h3>Problem Solving</h3>
+      <p>Analyzing problems and developing efficient engineering solutions</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="experience hidden">
+  <h2>Practical experience</h2>
+
+  <div class="exp-grid">
+    <div>
+      <h3>Gas Leak Detection & Safety System (In Progress)</h3>
+      <p>
+        Designing an Arduino-based system to detect gas leakage and enable automated safety responses using sensors and relay modules.
+        Focused on reliability and real-time performance.
+      </p>
+    </div>
+
+    <div>
+      <h3>PCB Design & Manufacturing (Worked On)</h3>
+      <p>
+        Gained hands-on experience in designing PCB layouts and understanding the manufacturing process.
+        Focused on component placement, circuit efficiency, and practical implementation.
+      </p>
+    </div>
+  </div>
+
+  <p class="bottom-text">
+    From PCB layouts to Arduino-based systems, actively designing solutions that bridge theory and practice.
+    Continuously building on previous hands-on experience while developing new systems to enhance practical skills and engineering understanding.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact hidden">
+  <div class="contact-content">
+    <h2>Contact me</h2>
+    <p>📧 samruddhigawade157@gmail.com</p>
+    <p>🔗 www.linkedin.com/in/samruddhi-gawade-2004-483b9</p>
+    <p>💻 samversegit (SAMRUDDHI GAWADE)</p>
+  </div>
+</section>
+
+<!-- ANIMATION SCRIPT -->
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
+</script>
+
+</body>
+</html>
