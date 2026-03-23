@@ -27,9 +27,4 @@ portfolio/
 1. Download or clone the repository  
 2. Open `index.html` in any browser  
 
-## 🌍 Live Demo
-(Add your GitHub Pages link here)
 
-## 📬 Contact
-- Email: your-email@example.com  
-- LinkedIn: your-linkedin-link  
