@@ -1,30 +1,92 @@
-# Portfolio
-Personal portfolio website built using HTML and CSS to showcase my skills, projects, and experience in electronics engineering. Features a clean layout with sections for About, Skillset, Experience, and Contact, along with smooth scrolling, hover effects, and basic animations.
 # 🌐 Personal Portfolio Website
 
-This is my personal portfolio website built using HTML and CSS. It showcases my skills, projects, and practical experience in electronics engineering.
+![Portfolio Preview](./assets/preview.png)
 
-## 📌 Features
-- Clean and structured layout
-- Sections: About, Skillset, Experience, Contact
-- Smooth scrolling navigation
-- Scroll-based animations
-- Hover effects for better UI
+## 👩‍💻 Samruddhi Gawade  
+**Electronics Engineering Student**  
+*Embedded Systems & Sensor Applications*  
+📍 Pune, India  
 
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
+---
 
-## 📂 Project Structure
-portfolio/
-│── index.html
-│── style.css
-│── hero-bg.png
-│── contact-bg.png
+## 📌 About Me  
+I am a passionate electronics engineering student with a strong interest in embedded systems and sensor-based technologies.  
 
+I enjoy building practical solutions that solve real-world problems, especially in areas like safety systems and automation. I am continuously learning and improving my technical and interpersonal skills to become an efficient and innovative engineer.
 
-## 🚀 How to Run
-1. Download or clone the repository  
-2. Open `index.html` in any browser  
+---
 
+## 🛠️ Skillset  
 
+### 🔹 Technical Skills  
+- Embedded Systems & Arduino Development  
+- Sensor Integration & Circuit Design  
+
+### 🔹 Core Skills  
+- Communication  
+- Teamwork  
+- Adaptability  
+- Problem Solving  
+
+---
+
+## 🚀 Practical Experience  
+
+### 🔸 Gas Leak Detection & Safety System *(In Progress)*  
+- Arduino-based system to detect gas leakage  
+- Automated safety responses using sensors and relays  
+- Focused on reliability and real-time performance  
+
+### 🔸 PCB Design & Manufacturing *(Worked On)*  
+- Hands-on experience in PCB layout design  
+- Exposure to manufacturing processes  
+- Focus on component placement and circuit efficiency  
+
+---
+
+## 📫 Contact  
+
+- 📧 Email: samruddhigawade157@gmail.com  
+- 🔗 LinkedIn: [samruddhi-gawade](https://www.linkedin.com/in/samruddhi-gawade-2004483b9)  
+- 💻 GitHub: [samversegit](https://github.com/samversegit)  
+
+---
+
+## 🎯 Project Overview  
+
+This portfolio website showcases my skills, projects, and experience in electronics engineering, with a focus on embedded systems and real-world applications.
+
+---
+
+## 🧠 How I Built This  
+
+This project was developed with a focus on clean design, performance, and modern UI/UX principles:
+
+- Built using **HTML, CSS, and JavaScript**
+- Designed a **fully responsive layout**
+- Implemented **smooth scrolling and animations**
+- Used **modern CSS (Flexbox, Grid, Gradients)**
+- Focused on **user experience and visual hierarchy**
+
+### ⚙️ Development Approach  
+- Theme customized based on visual design  
+- Added interactive UI elements  
+- Organized file structure for scalability  
+- Optimized for performance  
+
+---
+
+## ⚡ Future Improvements  
+
+- Add more real-world projects  
+- Backend integration for contact form  
+- Advanced animations and UI upgrades  
+- Deploy with custom domain  
+
+---
+
+## ⭐ Acknowledgment  
+
+This project represents my continuous learning journey in electronics and web development.
+
+---
