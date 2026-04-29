@@ -1,7 +1,5 @@
 # 🌐 Personal Portfolio Website
 
-![Portfolio Preview](./assets/preview.png)
-
 ## 👩‍💻 Samruddhi Gawade  
 **Electronics Engineering Student**  
 *Embedded Systems & Sensor Applications*  
